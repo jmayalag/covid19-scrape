@@ -5,7 +5,7 @@ const updateCases = async () => {
   const cases = await fetchCases();
   const json = JSON.stringify({ ...cases });
   console.log(json);
-  fs.writeFileSync("public/cases.json", json);
+  fs.writeFileSync("cases.json", json);
 };
 
 updateCases();
