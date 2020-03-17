@@ -5,7 +5,7 @@ on:
     branches:
       - master
   schedule:
-    - cron:  '*/5 * * * *' # update every 5 minutes
+    - cron:  '*/30 * * * *' # update every 30 minutes
 
 jobs:
   deploy:
