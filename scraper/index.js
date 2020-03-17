@@ -32,7 +32,14 @@ const fetchCases = async () => {
     const confirmed = extractNumber(text);
     const deaths = 0;
     const recovered = 0;
-    return { confirmed, deaths, recovered, timestamp: new Date() };
+    const timestamp = new Date();
+    const pyt = timestamp.toLocaleString("en-US", {
+      timeZone: "America/Asuncion",
+      hour12: false,
+      timeZoneName: "short"
+    });
+
+    return { confirmed, deaths, recovered, timestamp, pyt };
   } catch (e) {
     console.error(e);
   }
