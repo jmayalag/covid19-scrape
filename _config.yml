@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman
 title: "covid19-py Scraper"
 description: Scrapes the number of confirmed cases from the MSPBS web page
+google_analytics: UA-160724903-1
