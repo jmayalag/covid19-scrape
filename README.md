@@ -5,6 +5,6 @@ Scrapes the number of confirmed cases from the [MSPBS](https://www.mspbs.gov.py/
 [JSON Link](https://jmayalag.github.io/covid19-scrape/cases.json)
 Updated every 30 minutes.
 ```
-{"confirmed":113,"deaths":0,"recovered":0,"timestamp":"2020-04-07T00:33:58.084Z","pyt":"4/6/2020, 20:33:58 GMT-4"}
+{"confirmed":113,"deaths":0,"recovered":0,"timestamp":"2020-04-07T01:04:43.982Z","pyt":"4/6/2020, 21:04:43 GMT-4"}
 ```
-Last update (Paraguay Time): 4/6/2020, 20:33:58 GMT-4
+Last update (Paraguay Time): 4/6/2020, 21:04:43 GMT-4
